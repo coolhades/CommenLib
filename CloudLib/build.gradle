@@ -27,11 +27,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
-    compile 'com.github.coolhades:UShareManager:v0.1'
-    compile 'com.github.coolhades:CCManager:v1.02'
-    compile 'com.github.coolhades:IMLib:v1.04'
-    compile 'com.github.coolhades:JPushManager:v1.0'
+    
     //通用工具
     compile 'com.github.coolhades:CommonUtils:v1.02'
     //底层库 工厂反射创建Viewholder
